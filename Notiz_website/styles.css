@@ -1,0 +1,17 @@
+/* Fügen Sie hier Ihre benutzerdefinierten CSS-Stile hinzu */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+}

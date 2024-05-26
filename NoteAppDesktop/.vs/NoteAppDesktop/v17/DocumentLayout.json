@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ralph\\Downloads\\Pos_Projekt-main\\Pos_Projekt-main\\NoteAppDesktop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC43A3E-41FA-4F25-8A52-F071BC832462}|NoteAppDesktop\\NoteAppDesktop.csproj|c:\\users\\ralph\\downloads\\pos_projekt-main\\pos_projekt-main\\noteappdesktop\\noteappdesktop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC43A3E-41FA-4F25-8A52-F071BC832462}|NoteAppDesktop\\NoteAppDesktop.csproj|solutionrelative:noteappdesktop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC43A3E-41FA-4F25-8A52-F071BC832462}|NoteAppDesktop\\NoteAppDesktop.csproj|c:\\users\\ralph\\downloads\\pos_projekt-main\\pos_projekt-main\\noteappdesktop\\noteappdesktop\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC43A3E-41FA-4F25-8A52-F071BC832462}|NoteAppDesktop\\NoteAppDesktop.csproj|solutionrelative:noteappdesktop\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC43A3E-41FA-4F25-8A52-F071BC832462}|NoteAppDesktop\\NoteAppDesktop.csproj|c:\\users\\ralph\\downloads\\pos_projekt-main\\pos_projekt-main\\noteappdesktop\\noteappdesktop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2EC43A3E-41FA-4F25-8A52-F071BC832462}|NoteAppDesktop\\NoteAppDesktop.csproj|solutionrelative:noteappdesktop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ralph\\Downloads\\Pos_Projekt-main\\Pos_Projekt-main\\NoteAppDesktop\\NoteAppDesktop\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "NoteAppDesktop\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ralph\\Downloads\\Pos_Projekt-main\\Pos_Projekt-main\\NoteAppDesktop\\NoteAppDesktop\\MainWindow.xaml",
+              "RelativeToolTip": "NoteAppDesktop\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-26T07:01:32.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ralph\\Downloads\\Pos_Projekt-main\\Pos_Projekt-main\\NoteAppDesktop\\NoteAppDesktop\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "NoteAppDesktop\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ralph\\Downloads\\Pos_Projekt-main\\Pos_Projekt-main\\NoteAppDesktop\\NoteAppDesktop\\MainWindow.xaml.cs",
+              "RelativeToolTip": "NoteAppDesktop\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T07:01:33.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\ralph\\Downloads\\Pos_Projekt-main\\Pos_Projekt-main\\NoteAppDesktop\\NoteAppDesktop\\Note.cs",
+              "RelativeDocumentMoniker": "NoteAppDesktop\\Note.cs",
+              "ToolTip": "C:\\Users\\ralph\\Downloads\\Pos_Projekt-main\\Pos_Projekt-main\\NoteAppDesktop\\NoteAppDesktop\\Note.cs",
+              "RelativeToolTip": "NoteAppDesktop\\Note.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T07:01:33.051Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

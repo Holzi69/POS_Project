@@ -1,0 +1,66 @@
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.exe
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.deps.json
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.runtimeconfig.json
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.dll
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.pdb
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.csproj.AssemblyReference.cache
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop_MarkupCompile.cache
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.g.resources
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.AssemblyInfoInputs.cache
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.AssemblyInfo.cs
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.csproj.CoreCompileInputs.cache
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.csproj.CopyComplete
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.dll
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\refint\NoteAppDesktop.dll
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.pdb
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.genruntimeconfig.cache
+C:\Users\ralph\Documents\4te Klasse\POS\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\ref\NoteAppDesktop.dll
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.exe
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.deps.json
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.runtimeconfig.json
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.dll
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.pdb
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.csproj.AssemblyReference.cache
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop_MarkupCompile.cache
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.g.resources
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.AssemblyInfoInputs.cache
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.AssemblyInfo.cs
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.csproj.CoreCompileInputs.cache
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.csproj.CopyComplete
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.dll
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\refint\NoteAppDesktop.dll
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.pdb
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.genruntimeconfig.cache
+C:\Users\ralph\Documents\GitHub\Pos_Projekt\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\ref\NoteAppDesktop.dll
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.exe
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.deps.json
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.runtimeconfig.json
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.dll
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\NoteAppDesktop.pdb
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.csproj.AssemblyReference.cache
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop_MarkupCompile.cache
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.g.resources
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.AssemblyInfoInputs.cache
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.AssemblyInfo.cs
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.csproj.CoreCompileInputs.cache
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppD.246DF384.Up2Date
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.dll
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\refint\NoteAppDesktop.dll
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.pdb
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\NoteAppDesktop.genruntimeconfig.cache
+C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\obj\Debug\net6.0-windows\ref\NoteAppDesktop.dll
