@@ -1,17 +1,14 @@
-/* Fügen Sie hier Ihre benutzerdefinierten CSS-Stile hinzu */
 body {
     font-family: Arial, sans-serif;
+    margin-top: 60px; /* Abstand von der fixierten Navbar */
 }
 
+/* Hinzufügen von Padding für bessere Lesbarkeit */
 .container {
-    max-width: 800px;
-    margin: auto;
+    padding-top: 20px;
 }
 
-.form-group {
-    margin-bottom: 20px;
-}
-
-.btn-primary {
-    margin-top: 10px;
+/* Anpassungen für die Navbar */
+.navbar {
+    border-bottom: 1px solid #333; /* Fügt eine dezente Trennlinie hinzu */
 }

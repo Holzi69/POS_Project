@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ralph\\Downloads\\Pos_Projekt-main\\Pos_Projekt-main\\NoteAppDesktop\\NoteAppDesktop\\NoteAppDesktop.csproj",
+      "projectUniqueName": "C:\\Users\\ralph\\Documents\\GitHub\\POS_Project\\NoteAppDesktop\\NoteAppDesktop\\NoteAppDesktop.csproj",
       "projectName": "NoteAppDesktop",
-      "projectPath": "C:\\Users\\ralph\\Downloads\\Pos_Projekt-main\\Pos_Projekt-main\\NoteAppDesktop\\NoteAppDesktop\\NoteAppDesktop.csproj",
+      "projectPath": "C:\\Users\\ralph\\Documents\\GitHub\\POS_Project\\NoteAppDesktop\\NoteAppDesktop\\NoteAppDesktop.csproj",
       "packagesPath": "C:\\Users\\ralph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ralph\\Downloads\\Pos_Projekt-main\\Pos_Projekt-main\\NoteAppDesktop\\NoteAppDesktop\\obj\\",
+      "outputPath": "C:\\Users\\ralph\\Documents\\GitHub\\POS_Project\\NoteAppDesktop\\NoteAppDesktop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ralph\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -115,24 +115,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.30, 6.0.30]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.30, 6.0.30]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.30, 6.0.30]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.30, 6.0.30]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

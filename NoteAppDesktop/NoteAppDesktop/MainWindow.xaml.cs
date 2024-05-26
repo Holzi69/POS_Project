@@ -11,7 +11,7 @@ namespace NoteAppDesktop
     public partial class MainWindow : Window
     {
         private readonly HttpClient client = new HttpClient();
-        private const string apiUrl = "http://localhost:8080/api/notes";
+        private const string apiUrl = "http://localhost:8090/api/notes";
 
         public MainWindow()
         {

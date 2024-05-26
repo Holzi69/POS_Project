@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NoteAppDesktop
-build_property.ProjectDir = C:\Users\ralph\Downloads\Pos_Projekt-main\Pos_Projekt-main\NoteAppDesktop\NoteAppDesktop\
+build_property.ProjectDir = C:\Users\ralph\Documents\GitHub\POS_Project\NoteAppDesktop\NoteAppDesktop\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
