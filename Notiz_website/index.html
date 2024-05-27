@@ -1,50 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notizenverwaltung</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Benutzerdefinierte CSS -->
-    <link href="styles.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoteX</title>
+  <link rel="icon" href="Note.png" >
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Muli:100,300,400,600,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Notizenverwaltung</a>
-        <li class="nav-item">
-            <a class="nav-link" href="http://localhost:8090/health">Serverstatus</a>
-        </li>
-    </nav>
-
-    <div class="container mt-5">
-        <h2>Neue Notiz hinzufügen</h2>
-        <form id="noteForm">
-            <div class="form-group">
-                <label for="title">Titel:</label>
-                <input type="text" class="form-control" id="title" name="title" required>
-            </div>
-            <div class="form-group">
-                <label for="content">Inhalt:</label>
-                <textarea class="form-control" id="content" name="content" rows="3" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Hinzufügen</button>
-        </form>
+  <div class="page">
+    <header class="navbar fixed-top">
+      <div class="brand">
+        <a href="index.html"><img src="Note.png" alt="Logo"></a>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact-us.html">Contact Us</a>
+      </nav>
+      <a href="login.html" class="button">Sign In</a>
+    </header>
+    
+    <div class="page-header">
+      <div class="header-content">
+        <h1>Notizverwaltung</h1>
+        <p>Businet provides reliable business planning, management, and advisory services backed by years of experience in the industry.</p>
+       
+      </div>
     </div>
 
-    
+    <section class="section services-section">
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Market Analysis</h3>
+          <p>We support your business with fact-based market research.</p>
+        </div>
+        <div class="service">
+          <h3>Funds Management</h3>
+          <p>Allowing you to successfully deal with your company’s funds.</p>
+        </div>
+        <div class="service">
+          <h3>PR & Marketing</h3>
+          <p>Helping clients expand awareness and manage their reputation.</p>
+        </div>
+        <div class="service">
+          <h3>Business Planning</h3>
+          <p>Creating an efficient business plan designed to fit your company.</p>
+        </div>
+        <div class="service">
+          <h3>Audit</h3>
+          <p>Deep and detailed investigation of your company’s activity.</p>
+        </div>
+        <div class="service">
+          <h3>Consulting</h3>
+          <p>Focusing on our clients’ most critical issues and opportunities.</p>
+        </div>
+      </div>
+    </section>
 
-    <div class="container mt-5">
-        <h2>Notizen</h2>
-        <div id="notes"></div>
-    </div>
-    
-    <!-- Bootstrap JS und jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <!-- Ihr JavaScript-Code zum Abrufen, Anzeigen und Hinzufügen von Notizen -->
-    <script src="script.js"></script>
+    <section class="section about">
+      <div class="content">
+        <h2>About Businet</h2>
+        <p>Our consulting company is a leading firm of business managers and advisors with offices across the USA. We aim to provide you:</p>
+        <ul>
+          <li>Quality research & analysis</li>
+          <li>Business advisory experience</li>
+          <li>Reliable company management</li>
+        </ul>
+        <a href="Verwaltung.html" class="button">Probier es aus</a>
+      </div>
+      <div class="image">
+        <dings width="100%" controls>
+          <source src="app.jpg" type="foto">          
+        </dings>
+      </div>
+    </section>
+  </div>
 </body>
 </html>

@@ -6,6 +6,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         e.preventDefault();
         addNote();
     });
+
+    document.getElementById('downloadNotes').addEventListener('click', function () {
+        downloadNotes();
+    });
 });
 
 async function loadNotes() {
