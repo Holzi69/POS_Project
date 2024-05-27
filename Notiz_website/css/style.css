@@ -32,7 +32,7 @@ body, html {
   }
   
   .page-header {
-    background: url('../app.jpg') no-repeat center center;
+    background: url('../app.jpg') no-repeat center center transparent;
     background-size: cover;
     color: rgb(7, 27, 79);
     text-align: center;
@@ -128,4 +128,3 @@ body, html {
       height: 200px;
     }
   }
-  

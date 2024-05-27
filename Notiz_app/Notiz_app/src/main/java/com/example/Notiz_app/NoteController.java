@@ -1,5 +1,4 @@
 package com.example.Notiz_app;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,17 +11,16 @@ import java.util.List;
 public class NoteController {
 
     @Autowired
-    private NoteRepository noteRepository;
+    private NoteService noteService;
 
     @GetMapping
     public List<Note> getAllNotes() {
-        return noteRepository.findAll();
+        return noteService.getAllNotes();
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Note> getNoteById(@PathVariable Long id) {
-        Note note = noteRepository.findById(id)
-                .orElse(null);
+    public ResponseEntity<Note> getNoteById(@PathVariable long id) {
+        Note note = noteService.getNoteById(id);
         if (note != null) {
             return ResponseEntity.ok().body(note);
         } else {
@@ -32,19 +30,14 @@ public class NoteController {
 
     @PostMapping
     public ResponseEntity<Note> createNote(@RequestBody Note note) {
-        Note createdNote = noteRepository.save(note);
-        return ResponseEntity.status(HttpStatus.CREATED).body(createdNote);
+        noteService.create(note);
+        return ResponseEntity.status(HttpStatus.CREATED).body(note);
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Note> updateNote(@PathVariable Long id, @RequestBody Note noteDetails) {
-        Note note = noteRepository.findById(id)
-                .orElse(null);
-        if (note != null) {
-            note.setTitle(noteDetails.getTitle());
-            note.setContent(noteDetails.getContent());
-
-            Note updatedNote = noteRepository.save(note);
+    public ResponseEntity<Note> updateNote(@PathVariable long id, @RequestBody Note noteDetails) {
+        Note updatedNote = noteService.update(id, noteDetails);
+        if (updatedNote != null) {
             return ResponseEntity.ok().body(updatedNote);
         } else {
             return ResponseEntity.notFound().build();
@@ -52,14 +45,8 @@ public class NoteController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> deleteNote(@PathVariable Long id) {
-        Note note = noteRepository.findById(id)
-                .orElse(null);
-        if (note != null) {
-            noteRepository.delete(note);
-            return ResponseEntity.ok().build();
-        } else {
-            return ResponseEntity.notFound().build();
-        }
+    public ResponseEntity<?> deleteNote(@PathVariable long id) {
+        noteService.delete(id);
+        return ResponseEntity.ok().build();
     }
 }
