@@ -30,13 +30,20 @@ body, html {
     background-color: #007bff;
     border-radius: 5px;
   }
+
+  .highlight-text {
+    color: #fbfbfb; 
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0); 
+}
   
   .page-header {
     background: url('../app.jpg') no-repeat center center transparent;
     background-size: cover;
     color: rgb(7, 27, 79);
     text-align: center;
-    padding: 100px 20px;
+    padding: 120px 30px;
   }
   
   .header-content {
@@ -110,7 +117,7 @@ body, html {
   
   .about .image {
     flex: 1;
-    background: url('../app.jpg') repeat center center;
+    background: url('../video1.mp4') repeat center center;
     background-size: cover;
     height: 300px;
     border-radius: 10px;
