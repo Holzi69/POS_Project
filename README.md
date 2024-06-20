@@ -10,16 +10,16 @@ Dieses Repository enthält den Quellcode für NoteX, eine umfassende Notizverwal
 - [Konfiguration](#konfiguration)
 - [Verwendung](#verwendung)
 - [Veranschaulichung](#veranschaulichung)
+- [Sequenzdiagramm](#sequenzdiagramm-der-zusammenarbeit-zwischen-den-verschiedenen-Programmen)
 - [API-Endpunkte](#api-endpunkte)
 
 
 ## Überblick
-NoteX ist eine ausgeklügelte Notizverwaltungsapplikation, die Benutzern hilft, ihre Notizen nahtlos zu erstellen, zu bearbeiten und zu verwalten. Das Projekt umfasst eine Desktop-Applikation, eine Web-Applikation und einen Backend-Server. Der Server verwaltet Datenoperationen und wird in IntelliJ ausgeführt, während der Web-Client mit der Live Server-Erweiterung in Visual Studio Code bedient wird.
+NoteX ist eine ausgeklügelte Notizverwaltungsapplikation, die Benutzern hilft, ihre Notizen nahtlos zu erstellen, zu bearbeiten und zu verwalten. Das Projekt umfasst eine Desktop-Applikation, eine Web-Applikation und einen Backend-Server. Der Server verwaltet Datenoperationen, stellt Verbindung zu einer MongoDB Datenbank bereit, und wird in IntelliJ ausgeführt, während der Web-Client mit der Live Server-Erweiterung in Visual Studio Code bedient wird.
 
 ## Funktionen
 - Mithilfe der CRUD Funktionen Notizen erstellen, bearbeiten und löschen
-- Notizen kategorisieren
-- Notizen durchsuchen
+- Notizen kategorisieren(id's)
 - Responsives Web-Interface
 - Speicherung der Daten mithilfe von MongoDB
 
@@ -102,30 +102,60 @@ Die Notiz wird aus der Liste entfernt und aus der Datenbank gelöscht.
 ![Erstellen einer Notiz](./Bildermd/Bild6.PNG)
 ![Erstellen einer Notiz](./Bildermd/Bild7.PNG)<br>
 Geben Sie einen Titel und den Inhalt der neuen Notiz in die entsprechenden Textfelder ein.
-Klicken Sie auf die Schaltfläche " zum Erstellen der Notiz. Dadurch wird die Notiz übermittelt und gespeichert.
+Klicken Sie auf die Schaltfläche "Create" zum Erstellen der Notiz. Dadurch wird die Notiz übermittelt und gespeichert.
 
 
 ### Bearbeiten einer vorhandenen Notiz:
 
-![Bearbeiten einer Notiz](./BilderDoku/WPF/NotizKnöpfe.png)
-![Bearbeiten einer Notiz](./BilderDoku/WPF/NotizInhalte.png)<br>
+![Bearbeiten einer Notiz](./Bildermd/Bild8.PNG)
+![Bearbeiten einer Notiz](./Bildermd/Bild9.PNG)<br>
 Wählen Sie in der Liste der vorhandenen Notizen diejenige aus, die Sie bearbeiten möchten.
 Ändern Sie den Titel und/oder den Inhalt der Notiz in den Textfeldern.
 Klicken Sie auf die Schaltfläche "Update" zum Aktualisieren der Notiz. Dadurch werden Ihre Änderungen gespeichert.
 
 ###  Löschen einer Notiz
 
-![Löschen einer Notiz](./BilderDoku/WPF/NotizKnöpfe.png)
-![Löschen einer Notiz](./BilderDoku/WPF/NotizInhalte.png)<br>
+![Löschen einer Notiz](./Bildermd/Bild10.png)
+![Löschen einer Notiz](./Bildermd/Bild11.PNG)<br>
 Wählen Sie die Notiz aus der Liste aus, die Sie löschen möchten.
 Klicken Sie auf die Schaltfläche zum Löschen der Notiz . Dadurch wird die ausgewählte Notiz dauerhaft entfernt.
 
 # Ansicht der gespeicherten Daten
-![Ansicht einer Notiz](./Bildermd/Bild6.PNG)
-![Ansicht einer Notiz](./Bildermd/Bild7.PNG)
-![Ansicht einer Notiz](./Bildermd/Bild6.PNG)
-![Ansicht einer Notiz](./Bildermd/Bild7.PNG)
+![Ansicht einer Notiz](./Bildermd/Bild12.PNG)
+- **WPF-Anwendung**:
 
+Ein Screenshot der Desktop-Anwendung (WPF), die die Liste der gespeicherten Notizen anzeigt.
+![Ansicht einer Notiz](./Bildermd/Bild13.PNG)
+- **Webanwendung (WebApp)**:
+
+Ein Screenshot der Benutzeroberfläche der Webanwendung, die ebenfalls eine Liste der gespeicherten Notizen zeigt.  
+
+![Ansicht einer Notiz](./Bildermd/Bild14.PNG)
+- **Localhost:8090 (API Endpoint)**:
+
+Ein Screenshot einer REST-API-Testanwendung, die eine erfolgreiche Anfrage an den Endpunkt "localhost:8090/api/notes" zeigt. Der Bildschirm zeigt die JSON-Antwort der API mit den gespeicherten Notizen, einschließlich Titel, Inhalt und IDs. Dies unterstreicht die Dateninteraktionsebene der Anwendung und zeigt, wie die Notizen über die API zugänglich sind.
+
+![Ansicht einer Notiz](./Bildermd/Bild15.png)
+- **MongoDB (Datenbank)**:
+
+Ein Screenshot der MongoDB-Datenbankverwaltungsoberfläche (MongoDB Compass), die die gespeicherten Notizen in der entsprechenden Sammlung zeigt. Jede Notiz ist als Dokument dargestellt, mit Feldern für Titel, Inhalt und ID. Dies verdeutlicht die dauerhafte Speicherung der Daten und zeigt, wie sie strukturiert sind, um jederzeit abgerufen und verwaltet werden zu können.
+
+## Sequenzdiagramm der zusammenarbeit zwischen den verschiedenen Programmen 
+
+```mermaid
+    sequenceDiagram
+    participant Benutzer
+    participant GUI
+    participant Backend
+    participant Datenbank
+
+    Benutzer->>GUI: Interaktion (Erstellen, Anzeigen, Bearbeiten, Löschen)
+    GUI->>Backend: API-Aufruf senden
+    Backend->>Datenbank: Datenbankoperation (Erstellen, Lesen, Aktualisieren, Löschen)
+    Datenbank-->>Backend: Operation erfolgreich
+    Backend-->>GUI: Bestätigung oder aktualisierte Daten
+    GUI-->>Benutzer: Aktualisierte Ansicht oder Bestätigung
+```
 ## API-Endpunkte
 
 ### Alle Notizen abrufen
@@ -223,6 +253,7 @@ Klicken Sie auf die Schaltfläche zum Löschen der Notiz . Dadurch wird die ausg
 
 -  **Antwort**:
 - **Statuscode**: 200 OK
+
 
 
 ## Diskussion der Ergebnisse
