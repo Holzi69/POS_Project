@@ -95,6 +95,12 @@ Suchen Sie in der Liste nach der Notiz, die Sie löschen möchten.
 Klicken Sie auf die Schaltfläche "Löschen", die neben der Notiz angezeigt wird.
 Die Notiz wird aus der Liste entfernt und aus der Datenbank gelöscht.
 
+### Downloaden einer Notiz
+![Downloaden der Notiz](./Bildermd/Bild16.png)
+![Downloaden der Notiz](./Bildermd/Bild17.png)
+![Downloaden der Notiz](./Bildermd/Bild18.png)<br>
+
+
 ## Funktionen der WPF-Anwendung
 
 ### Erstellen einer Notiz
