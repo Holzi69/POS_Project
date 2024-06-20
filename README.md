@@ -1,6 +1,6 @@
 # NoteX
 
-Dieses Repository enthält den Quellcode für NoteX, eine umfassende Notizverwaltungsapplikation.
+Dieses Repository enthält den Quellcode für NoteX, eine umfassende Notizverwaltungsapplikation von Ralph Steiner-Holzmann.
 
 ## Inhaltsverzeichnis
 - [Überblick](#überblick)
@@ -99,7 +99,15 @@ Die Notiz wird aus der Liste entfernt und aus der Datenbank gelöscht.
 ![Downloaden der Notiz](./Bildermd/Bild16.png)
 ![Downloaden der Notiz](./Bildermd/Bild17.png)
 ![Downloaden der Notiz](./Bildermd/Bild18.png)<br>
-
+- **Notizen herunterladen (DownloadNotes-Funktion)**:
+Diese Funktion ermöglicht es Benutzern, alle gespeicherten Notizen als JSON-Datei herunterzuladen.
+Beim Klicken auf die "Download" Schaltfläche in der Webanwendung wird eine Anfrage an die URL "http://localhost:8090/api/notes" gesendet.
+Die API antwortet mit einer Liste der Notizen im JSON-Format.
+Die erhaltenen Notizen werden dann in eine schön formatierte JSON-Datei umgewandelt und als Blob erstellt.
+Ein Download-Link ("notes.json") wird erzeugt, der es dem Benutzer ermöglicht, die Datei herunterzuladen.
+Nach dem Download wird die URL des Blob-Objekts widerrufen, um Speicherplatz freizugeben.
+Falls ein Fehler auftritt, wird er in der Konsole der Webanwendung angezeigt.
+Diese Funktion ergänzt die visuellen Darstellungen der Notizen, indem sie einen praktischen Weg bietet, um die Daten zu exportieren und extern zu speichern, falls der Benutzer sie sichern oder analysieren möchte.
 
 ## Funktionen der WPF-Anwendung
 
