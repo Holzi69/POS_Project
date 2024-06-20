@@ -9,6 +9,7 @@ Dieses Repository enthält den Quellcode für NoteX, eine umfassende Notizverwal
 - [Installation](#installation)
 - [Konfiguration](#konfiguration)
 - [Verwendung](#verwendung)
+- [Veranschaulichung](#veranschaulichung)
 - [API-Endpunkte](#api-endpunkte)
 
 
@@ -20,12 +21,14 @@ NoteX ist eine ausgeklügelte Notizverwaltungsapplikation, die Benutzern hilft, 
 - Notizen kategorisieren
 - Notizen durchsuchen
 - Responsives Web-Interface
+- Speicherung der Daten mithilfe von MongoDB
 
 ## Architektur
 Die NoteX-Applikation ist in drei Hauptkomponenten unterteilt:
 1. **Backend-Server**: Verwaltet alle datenbezogenen Operationen und ist in Java geschrieben. Er läuft auf `localhost:8090`.
 2. **Web-Applikation**: Bietet eine benutzerfreundliche Oberfläche zur Interaktion mit den Notizen und läuft auf `http://127.0.0.1:5500` unter Verwendung der Live Server-Erweiterung in Visual Studio Code.
 3. **Desktop-Applikation**: Eine WPF-Applikation, die auf Windows läuft und dieselben Funktionen wie die Web-Applikation bietet.
+4.  **Mongo-DB**: Eine Datenbank, die alle Notizen der Clients abspeichert
 
 ## Installation
 
@@ -66,55 +69,62 @@ Stelle sicher, dass der Backend-Server auf `localhost:8090` läuft und sowohl di
 
 ### Erstellen einer Notiz
 
-![Erstellen einer Notiz](./BilderDoku/Web/Notizhinzufuegen_1.png)
-![Erstellen einer Notiz](./BilderDoku/Web/NotizSpeichern.png)<br>
-Um eine neu Notiz zu speichern muss man zuerst den blauen Plus-Button drücken, wie in Bild 1 dargestellt. <br> 
-Beim drücken des Knopfs öffnet sich ein Fenster welches die Knöpfe Speichern, Abbrechen und Löschen enthält. Beim drücken von Speichern wird die Notiz gespeichert, egal ob man gerade eine neue Notiz erstellt oder eine bereits Vorhandene bearbeitet. Beim drücken vom Abbrechen Knopf wird das Fenster zum hinzufügen/bearbeiten zugeklappt. Wenn man den Löschen Knopf drückt wird die aktuelle Notiz aus der Datenbank gelöscht.
+![Erstellen einer Notiz](./Bildermd/Bild1.PNG)
+![Erstellen einer Notiz](./Bildermd/Bild2.PNG)<br>
+Füllen Sie das Formular aus, indem Sie einen Titel und den Inhalt der neuen Notiz eingeben.
+Klicken Sie auf die Schaltfläche "Hinzufügen". Dadurch wird die Notiz gespeichert und zur Liste hinzugefügt.
 
-### Anzeigen der Notizen
 
-![Anzeigen der Notiz](./BilderDoku/Web/NotizAnzeigen.png)<br>
-Wenn eine Notiz via WebApp oder DesktopApp in der Datenbank angelegt hat, kann man diese wieder anzeigen lassen, wenn man auf den Knopf mit dem Titel der benötigten Notiz drückt. <br> So kann man beispielsweise die Notiz löschen oder aktualisieren.
+### Bearbeiten einer vorhandenen Notiz:
 
-### Ändern einer Notiz
+![Änderung einer Notiz](./Bildermd/Bild2.PNG)
+![Änderung einer Notiz](./Bildermd/Bild3.PNG)
+![Änderung einer Notiz](./Bildermd/Bild4.PNG)
+<br>
+Suchen Sie in der Liste nach der Notiz, die Sie bearbeiten möchten.
+Klicken Sie auf die Schaltfläche "Bearbeiten", die neben der Notiz angezeigt wird.
+Das Formular wird mit den vorhandenen Informationen (Titel und Inhalt) der Notiz gefüllt.
+Ändern Sie den Titel und/oder den Inhalt der Notiz nach Bedarf.
+Klicken Sie auf "Aktualisieren", um die Änderungen zu speichern.
 
-![Ändern der Notiz](./BilderDoku/Web/NotizAnzeigen.png)
-![Ändern einer Notiz](./BilderDoku/Web/NotizSpeichern.png)<br>
-Um eine Notiz zu Ändern muss man wie im Schritt zuvor eine der bereits vorhandenen Notizen auswählen und entweder den Inhalt oder den Titel der Notiz bearbeiten.<br> Um das ganze dann in der Datenbank zu Speichern muss man nur noch den Speichern Knopf drücken- Dann sendet die Anwendung ein Request and den Server, welcher die neuen Daten in die Datenbank speichert.
+### Löschen einer vorhandenen Notiz
 
-### Löschen der Notiz
-
-![Löschen der Notiz](./BilderDoku/Web/NotizAnzeigen.png)
-![Löschen der Notiz](./BilderDoku/Web/NotizSpeichern.png)<br>
-Will man die Notiz doch Löschen, so drückt man einfach den Löschen Knopf und der Server empfängt den Befehl zum löschen der Notiz.<br>
+![Löschen der Notiz](./Bildermd/Bild4.PNG)
+![Löschen der Notiz](./Bildermd/Bild5.png)<br>
+Suchen Sie in der Liste nach der Notiz, die Sie löschen möchten.
+Klicken Sie auf die Schaltfläche "Löschen", die neben der Notiz angezeigt wird.
+Die Notiz wird aus der Liste entfernt und aus der Datenbank gelöscht.
 
 ## Funktionen der WPF-Anwendung
 
 ### Erstellen einer Notiz
 
-![Erstellen einer Notiz](./BilderDoku/WPF/NotizInhalte.png)
-![Erstellen einer Notiz](./BilderDoku/WPF/NotizKnöpfe.png)<br>
-Um eine neue Notiz hinzuzufügen muss man zuerst die Felder in Bild 1 ausfüllen und den Speichern Knopf drücken. <br> 
-Der Server legt dann automatisch eine neue Notiz an.
+![Erstellen einer Notiz](./Bildermd/Bild6.PNG)
+![Erstellen einer Notiz](./Bildermd/Bild7.PNG)<br>
+Geben Sie einen Titel und den Inhalt der neuen Notiz in die entsprechenden Textfelder ein.
+Klicken Sie auf die Schaltfläche " zum Erstellen der Notiz. Dadurch wird die Notiz übermittelt und gespeichert.
 
-### Anzeigen einer Notz
 
-![Erstellen einer Notiz](./BilderDoku/WPF/NotizKnöpfe.png)
-![Erstellen einer Notiz](./BilderDoku/WPF/NotizInhalte.png)<br>
-Soll eine bereits vorhandene Notiz angezeigt werden, drückt der Benutzer die benötigte Notiz, wie in Bild 1, so werden die Daten der Notiz in den Feldern "Notiz Überschrift" und "Notiz Inhalt" angezeigt.<br>
+### Bearbeiten einer vorhandenen Notiz:
 
-### Ändern einer Notiz
-
-![Erstellen einer Notiz](./BilderDoku/WPF/NotizKnöpfe.png)
-![Erstellen einer Notiz](./BilderDoku/WPF/NotizInhalte.png)<br>
-Um eine Notiz zu ändern muss man zuerst eine Notiz, wie beim Anzeigen, auswählen. Dann kann man einfach die zu Ändernden Daten umschreiben, und der Server ändert die Daten in der Datenbank.<br>
+![Bearbeiten einer Notiz](./BilderDoku/WPF/NotizKnöpfe.png)
+![Bearbeiten einer Notiz](./BilderDoku/WPF/NotizInhalte.png)<br>
+Wählen Sie in der Liste der vorhandenen Notizen diejenige aus, die Sie bearbeiten möchten.
+Ändern Sie den Titel und/oder den Inhalt der Notiz in den Textfeldern.
+Klicken Sie auf die Schaltfläche "Update" zum Aktualisieren der Notiz. Dadurch werden Ihre Änderungen gespeichert.
 
 ###  Löschen einer Notiz
 
-![Erstellen einer Notiz](./BilderDoku/WPF/NotizKnöpfe.png)
-![Erstellen einer Notiz](./BilderDoku/WPF/NotizInhalte.png)<br>
-Will der Benutzer eine Notiz aus der Datenbank entfernen muss er zuerst eine Notiz auswählen, wie in Bild 1, und den Löschen Knopf drücken. Danach wird ein Befehl an den Server geschickt, welcher wiederum die zu löschenden Daten aus der Datenbank entfernt.<br>
+![Löschen einer Notiz](./BilderDoku/WPF/NotizKnöpfe.png)
+![Löschen einer Notiz](./BilderDoku/WPF/NotizInhalte.png)<br>
+Wählen Sie die Notiz aus der Liste aus, die Sie löschen möchten.
+Klicken Sie auf die Schaltfläche zum Löschen der Notiz . Dadurch wird die ausgewählte Notiz dauerhaft entfernt.
 
+# Ansicht der gespeicherten Daten
+![Ansicht einer Notiz](./Bildermd/Bild6.PNG)
+![Ansicht einer Notiz](./Bildermd/Bild7.PNG)
+![Ansicht einer Notiz](./Bildermd/Bild6.PNG)
+![Ansicht einer Notiz](./Bildermd/Bild7.PNG)
 
 ## API-Endpunkte
 
